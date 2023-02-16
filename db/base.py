@@ -1,6 +1,6 @@
 from databases import Database
-from sqlalchemy import create_engine, MetaData
 from core.config import DATABASE_URL
+from sqlalchemy import create_engine, MetaData
 
 databases = Database(DATABASE_URL)
 metadata = MetaData()
